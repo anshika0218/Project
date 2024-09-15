@@ -1,0 +1,244 @@
+/* body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+@media (max-width: 600px) {
+  .faq {
+    font-size: 14px;
+  }
+
+  .login input,
+  .faqForm input {
+    width: 100%;
+  }
+} */
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Login Page Styles */
+.login {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login h1 {
+  margin-bottom: 20px;
+}
+
+.login input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #0056b3;
+}
+
+/* Home Page Styles */
+.home {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+.home h1 {
+  margin-bottom: 20px;
+}
+
+.home nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.home nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.home nav a:hover {
+  text-decoration: underline;
+}
+
+/* Chatbot Page Styles */
+.chatbot {
+  padding: 20px;
+}
+
+.chatbot h1 {
+  margin-bottom: 20px;
+}
+
+.fruit-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.fruit-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.fruit-detail {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Translator Page Styles */
+.translator {
+  padding: 20px;
+}
+
+.translator input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.translator button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.translator button:hover {
+  background-color: #0056b3;
+}
+
+/* FAQ Page Styles */
+.faq {
+  padding: 20px;
+}
+
+.faq h1 {
+  margin-bottom: 20px;
+}
+
+.faq ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq li {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+/* About Page Styles */
+.about {
+  padding: 20px;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .home nav ul {
+    text-align: center;
+  }
+
+  .home nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
